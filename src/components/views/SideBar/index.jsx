@@ -7,47 +7,28 @@ function NavigationBar() {
   return (
     <nav id="sidebar">
       <div class="sidebar-header">
-          <h3>Bootstrap Sidebar</h3>
+          <h3><a href="/">Hughreysti</a></h3>
       </div>
 
       <ul class="list-unstyled components">
-        <p>Dummy Heading</p>
-        <li class="active">
-          <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
-          <ul class="collapse list-unstyled" id="homeSubmenu">
-            <li>
-                <a href="#">Home 1</a>
-            </li>
-            <li>
-                <a href="#">Home 2</a>
-            </li>
-            <li>
-                <a href="#">Home 3</a>
-            </li>
-          </ul>
+        <h4>Verkfærakistan</h4>
+        <li>
+          <a href="/verkfaerakistan">Heim</a>
         </li>
         <li>
-          <a href="#">About</a>
+          <a href="/verkfaerakistan/about">Um Spilið</a>
         </li>
         <li>
-          <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
-          <ul class="collapse list-unstyled" id="pageSubmenu">
-            <li>
-              <a href="#">Page 1</a>
-            </li>
-            <li>
-              <a href="#">Page 2</a>
-            </li>
-            <li>
-              <a href="#">Page 3</a>
-            </li>
-          </ul>
+          <a href="/verkfaerakistan/brochure">Kennarabæklingur</a>
         </li>
         <li>
-          <a href="#">Portfolio</a>
+          <a href="/verkfaerakistan/remedy">Úrræði</a>
         </li>
         <li>
-          <a href="#">Contact</a>
+          <a href="/verkfaerakistan/gamerules">Leikreglur</a>
+        </li>
+        <li>
+          <a href="/verkfaerakistan/faq">FAQ</a>
         </li>
       </ul>
     </nav>
