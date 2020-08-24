@@ -6,28 +6,28 @@ import './sidebar.css';
 function NavigationBar() {
   return (
     <nav id="sidebar">
-      <div class="sidebar-header">
+      <div className="sidebar-header">
           <h3><a href="/">Hughreysti</a></h3>
       </div>
 
-      <ul class="list-unstyled components">
+      <ul className="components" id="sidebarComponents">
         <h4>Verkfærakistan</h4>
-        <li>
+        <li id="verkfaerakistan">
           <a href="/verkfaerakistan">Heim</a>
         </li>
-        <li>
+        <li id="about">
           <a href="/verkfaerakistan/about">Um Spilið</a>
         </li>
-        <li>
+        <li id="brochure">
           <a href="/verkfaerakistan/brochure">Kennarabæklingur</a>
         </li>
-        <li>
+        <li id="remedy">
           <a href="/verkfaerakistan/remedy">Úrræði</a>
         </li>
-        <li>
+        <li id="gamerules">
           <a href="/verkfaerakistan/gamerules">Leikreglur</a>
         </li>
-        <li>
+        <li id="faq">
           <a href="/verkfaerakistan/faq">FAQ</a>
         </li>
       </ul>

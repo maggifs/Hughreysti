@@ -12,10 +12,6 @@
   transition: all 0.3s;
 }
 
-#sidebar.active {
-  margin-left: -250px;
-}
-
 #sidebar .sidebar-header {
   padding: 15px 0px;
   background: #2C3C41;
@@ -48,10 +44,10 @@
   background: #fff;
 }
 
-#sidebar ul li.active>a,
-a[aria-expanded="true"] {
-  color: #fff;
-  background: #2C3C41;
+#sidebar ul li.active a {
+  color: #2C3C41;
+  background: #fff;
+  font-weight: bold;
 }
 
 a[data-toggle="collapse"] {
