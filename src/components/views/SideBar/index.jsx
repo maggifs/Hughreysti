@@ -28,7 +28,7 @@ function NavigationBar() {
           <a href="/verkfaerakistan/gamerules">Leikreglur</a>
         </li>
         <li id="faq">
-          <a href="/verkfaerakistan/faq">FAQ</a>
+          <a href="/verkfaerakistan/faq">Algengar Spurningar</a>
         </li>
       </ul>
     </nav>

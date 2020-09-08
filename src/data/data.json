@@ -1,0 +1,37 @@
+[
+	{
+		"about": {
+			"title": "Um spilið",
+			"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus ipsum quis odio tincidunt, eu faucibus urna consectetur. Pellentesque condimentum lacus non est varius, bibendum suscipit mauris consectetur. Praesent viverra lacinia tellus sed placerat. Phasellus tempor, lacus ut pretium commodo, ex elit posuere augue, ut vestibulum ante neque vel lacus. Vestibulum laoreet tincidunt orci, at fermentum odio pulvinar id. Aliquam elementum vehicula arcu. Maecenas sagittis ultrices lacinia. Nunc purus metus, mollis vel euismod et, mollis a ipsum. Nulla semper lacus eget erat dapibus sagittis."
+		},
+		"brochure": {
+
+		},
+		"remedy": {
+
+		},
+		"gamerules": {
+
+		},
+		"faq": {
+			"questions": [
+				{
+				"question": "Lorem ipsum dolor sit amet.",
+				"answer": "Sed eget tempus odio. Phasellus sit amet neque quis enim eleifend ullamcorper eu ac nunc. Donec vel felis at nulla dapibus euismod. Fusce ut tristique orci, quis semper orci. Ut euismod congue diam, ultrices rhoncus augue. Maecenas placerat est a mi accumsan ultricies. Maecenas placerat lacus a tristique ultrices. Cras dolor nisi, blandit vitae velit quis, mollis rutrum libero. Integer sit amet ex luctus, rhoncus felis dignissim, euismod nunc."
+				},
+				{
+					"question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel.",
+					"answer": "Nunc et rutrum nisl, ac semper lacus. Vivamus et blandit mi. Fusce vitae metus nec ligula luctus convallis. Morbi nisi enim, efficitur in hendrerit sed, rhoncus nec enim. Aenean quis efficitur ex, eu sodales sem. Cras at purus eu nunc rutrum rutrum et in libero. Praesent nec arcu felis. Morbi non accumsan dolor, eget eleifend mauris. Praesent semper purus sed ex lobortis vehicula. Vestibulum justo enim, fringilla eget odio in, posuere eleifend leo. Curabitur ut pharetra mauris. Pellentesque fringilla lectus sed pharetra luctus. Morbi tempor eros eget dignissim sodales."
+				},
+				{
+					"question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sed luctus orci. Quisque eget mollis.",
+					"answer": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Ut at convallis quam. Aliquam dapibus, erat sed ultricies efficitur, urna nisl auctor lorem, vitae volutpat ipsum leo nec lacus. Fusce commodo sagittis mauris nec ultricies. Proin nisi metus, mattis et nibh at, congue venenatis lectus. In ut dolor vestibulum, fermentum nunc eget, accumsan justo. Integer arcu dui, feugiat non sem id, porttitor fringilla sem. Vivamus gravida erat et nisl lacinia, id placerat sem efficitur."
+				},
+				{
+					"question": "template",
+					"answer": "template"
+				}
+			]
+		}
+	}
+]
