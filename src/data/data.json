@@ -11,13 +11,30 @@
 
 		},
 		"gamerules": {
-
+			"rules": [
+				{
+					"title": "Lorem ipsum dolor sit amet.",
+					"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer scelerisque neque sit amet quam bibendum mattis. Donec imperdiet felis dapibus hendrerit facilisis. Curabitur a sodales nisl. Suspendisse dictum ante vitae pellentesque pharetra. Duis dignissim, urna tristique convallis condimentum, lorem orci pharetra velit, sit amet sollicitudin dolor tellus a tortor. Suspendisse vitae elit non mauris tempor rhoncus nec quis enim. Ut et mauris non erat tempor tincidunt ut eu libero. Pellentesque nisl tellus, ullamcorper ut varius eget, hendrerit sit amet orci. In vel sagittis urna, nec dictum metus."
+				},
+				{
+					"title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel.",
+					"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed volutpat lacus, vel mollis libero. Donec nunc neque, condimentum a porta eleifend, molestie vel felis. Mauris risus urna, lobortis non quam et, pretium facilisis tellus. Nullam eget sodales tortor. Nullam at efficitur velit. Nam eget arcu rhoncus augue posuere placerat. Nullam nec felis sed turpis imperdiet egestas. In erat lorem, rhoncus eu ornare non, imperdiet luctus quam. Integer quis purus varius, venenatis nulla in, interdum eros. Vestibulum tempus odio eu ex accumsan sagittis ut non lacus."
+				},
+				{
+					"title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+					"content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id feugiat metus. Sed sit amet venenatis eros. Duis non leo et dui mattis gravida vitae in quam. Donec id vestibulum massa, gravida hendrerit risus. Aliquam vitae tellus bibendum, ullamcorper risus ut, vehicula magna. Sed fringilla augue sem, nec ornare lectus placerat eu. Curabitur maximus sem mattis mi rhoncus porta. Praesent lacinia ligula sit amet nulla egestas, eget feugiat orci finibus. Nam odio purus, vehicula vitae suscipit sed, facilisis quis nisl. Duis id erat a nisl finibus ultricies. Donec quis mollis orci, sed tempor lacus. Mauris finibus orci vel bibendum maximus. \nProin tempor augue sed fringilla molestie. Integer in arcu hendrerit tortor laoreet hendrerit a at mi. Integer vulputate nulla justo, eget mollis turpis venenatis mattis. Nam eu gravida lacus. Nam sit amet interdum tortor. Vestibulum rutrum accumsan ante eget accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec eget neque sed magna consectetur egestas. Suspendisse mattis magna at orci vestibulum convallis. Nulla venenatis, nisi et egestas suscipit, nibh metus tincidunt erat, non consequat diam urna blandit justo. Vivamus diam magna, efficitur in ultrices sollicitudin, cursus condimentum nibh. Quisque rutrum justo ipsum, eu luctus leo sollicitudin at. Etiam quam erat, elementum sed facilisis id, tristique sit amet diam. In hac habitasse platea dictumst."
+				},
+				{
+					"title": "template",
+					"content": "template"
+				}
+			]
 		},
 		"faq": {
 			"questions": [
 				{
-				"question": "Lorem ipsum dolor sit amet.",
-				"answer": "Sed eget tempus odio. Phasellus sit amet neque quis enim eleifend ullamcorper eu ac nunc. Donec vel felis at nulla dapibus euismod. Fusce ut tristique orci, quis semper orci. Ut euismod congue diam, ultrices rhoncus augue. Maecenas placerat est a mi accumsan ultricies. Maecenas placerat lacus a tristique ultrices. Cras dolor nisi, blandit vitae velit quis, mollis rutrum libero. Integer sit amet ex luctus, rhoncus felis dignissim, euismod nunc."
+					"question": "Lorem ipsum dolor sit amet.",
+					"answer": "Sed eget tempus odio. Phasellus sit amet neque quis enim eleifend ullamcorper eu ac nunc. Donec vel felis at nulla dapibus euismod. Fusce ut tristique orci, quis semper orci. Ut euismod congue diam, ultrices rhoncus augue. Maecenas placerat est a mi accumsan ultricies. Maecenas placerat lacus a tristique ultrices. Cras dolor nisi, blandit vitae velit quis, mollis rutrum libero. Integer sit amet ex luctus, rhoncus felis dignissim, euismod nunc."
 				},
 				{
 					"question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel.",
