@@ -11,10 +11,7 @@ function NavigationBar() {
       </div>
 
       <ul className="components" id="sidebarComponents">
-        <h4>Verkfærakistan</h4>
-        <li id="verkfaerakistan">
-          <a href="/verkfaerakistan">Heim</a>
-        </li>
+        <h4><a href="/verkfaerakistan/about">Verkfærakistan</a></h4>
         <li id="about">
           <a href="/verkfaerakistan/about">Um Spilið</a>
         </li>

@@ -48,13 +48,17 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script type="text/javascript">
-    // Setja hér highlight stuffið fyrir sidebar
     function makeActive() {
-      var pageURL = ($(location).attr("href")).split("/");
+      var pageURL = ($(location).attr('href')).split('/');
       var pageUrlId = pageURL[pageURL.length-1]
       if(pageUrlId) {
-        $("#" + pageUrlId).addClass("active");
+        $('#' + pageUrlId).addClass('active');
       };
+
+      $('#brochureList button').on('click', function (e) {
+      e.preventDefault()
+      $(this).find('div').toggleClass('hidden')
+    })
     }
     window.onload = makeActive;
     </script>

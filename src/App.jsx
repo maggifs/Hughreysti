@@ -2,7 +2,6 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import FrontPage from './components/views/FrontPage';
 import SideBar from './components/views/SideBar';
-import VHomePage from './components/views/Verkfaerakistan/HomePage';
 import VAbout from './components/views/Verkfaerakistan/About';
 import VFaq from './components/views/Verkfaerakistan/Faq';
 import VGameRules from './components/views/Verkfaerakistan/GameRules';
@@ -18,7 +17,6 @@ function App() {
       <div id="content">
         <Switch>
           <Route path="/" exact component={FrontPage} />
-          <Route path="/verkfaerakistan" exact component={VHomePage} />
             <Route path="/verkfaerakistan/about" exact component={VAbout} />
             <Route path="/verkfaerakistan/faq" exact component={VFaq} />
             <Route path="/verkfaerakistan/gamerules" exact component={VGameRules} />

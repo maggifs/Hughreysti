@@ -6,8 +6,6 @@ function GameRules() {
   Data.map((rulesDetail)=>{ return rules = (rulesDetail.gamerules.rules)});
   return (
     <div className="App">
-      {/* Remove below h1 after page is ready */}
-      <h1>GameRulesPage of Verkfærakistan</h1>
       <h1>Leikreglur</h1>
       {rules.map((item, index)=>{
         // Use replace below when #text has been fixed
