@@ -2,7 +2,7 @@ import React from 'react';
 
 function Remedy() {
   return (
-    <div className="App">
+    <div className="App container">
       <h1>RemedyPage of Verkfærakistan</h1>
     </div>
   );

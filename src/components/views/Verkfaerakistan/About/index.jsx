@@ -5,8 +5,8 @@ import './about.css';
 
 function About() {
   return (
-    <div className="App">
-      <img src={Image} alt="placeholder" className="img-fluid rounded" width="30%" />
+    <div className="App container">
+      <img src={Image} alt="placeholder" className="img-fluid rounded" width="50%" />
       {Data.map((dataDetail, index)=>{
         return <div key={index}>
             <h1>{dataDetail.about.title}</h1>

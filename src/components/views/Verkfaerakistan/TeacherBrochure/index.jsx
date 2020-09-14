@@ -14,7 +14,7 @@ function TeacherBrochure() {
   let information = getInformation();
 
   return (
-    <div className="App">
+    <div className="App container">
       <h1>Kennarabæklingur</h1>
       <p>{teacherInformation}</p>
       <div id="brochureList" role="tablist">

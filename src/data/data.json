@@ -67,6 +67,30 @@
 					"answer": "template"
 				}
 			]
+		},
+		"staff": {
+			"members": [
+				{
+					"name": "Person 1",
+					"role": "this is my role",
+					"image": "photoPlaceholder.jpg"
+				},
+				{
+					"name": "Person 2",
+					"role": "this is my role",
+					"image": "photoPlaceholder.jpg"
+				},
+				{
+					"name": "Person 3",
+					"role": "this is my role",
+					"image": "photoPlaceholder.jpg"
+				},
+				{
+					"name": "Person 4",
+					"role": "this is my role",
+					"image": "photoPlaceholder.jpg"
+				}
+			]
 		}
 	}
 ]

@@ -5,7 +5,7 @@ function GameRules() {
   let rules;
   Data.map((rulesDetail)=>{ return rules = (rulesDetail.gamerules.rules)});
   return (
-    <div className="App">
+    <div className="App container">
       <h1>Leikreglur</h1>
       {rules.map((item, index)=>{
         // Use replace below when #text has been fixed

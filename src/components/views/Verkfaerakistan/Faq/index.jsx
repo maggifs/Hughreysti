@@ -5,7 +5,7 @@ function Faq() {
   let questions;
   Data.map((dataDetail)=>{ return (questions = dataDetail.faq.questions)});
   return (
-    <div className="App">
+    <div className="App container">
       <h1>Algengar Spurningar</h1>
         {questions.map((item, index)=>{
           return <div key={index}>
