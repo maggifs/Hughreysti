@@ -26,7 +26,113 @@
 			]
 		},
 		"remedy": {
-
+			"remedy": [
+				{
+					"title": "Námsráðgjafar",
+					"disorder": "Allar raskanir",
+					"location": "-",
+					"link": "",
+					"phone": "-"
+				},
+				{
+					"title": "Heilsugæslur",
+					"disorder": "Allar raskanir",
+					"location": "-",
+					"link": "",
+					"phone": "-"
+				},
+				{
+					"title": "1717",
+					"disorder": "Allar raskanir",
+					"location": "-",
+					"link": "https://www.raudikrossinn.is/hvad-gerum-vid/hjalparsiminn-1717/",
+					"phone": "1717"
+				},
+				{
+					"title": "Átröskunarteymi Landspítalans á facebook",
+					"disorder": "Átröskun",
+					"location": "-",
+					"link": "https://www.facebook.com/atroskunlsh/",
+					"phone": "-"
+				},
+				{
+					"title": "Minlidan.is",
+					"disorder": "Þunglyndi og félagskvíða",
+					"location": "-",
+					"link": "https://www.minlidan.is",
+					"phone": "-"
+				},
+				{
+					"title": "Litla kvíðameðferðarstöðin",
+					"disorder": "Kvíðaröskun og félagskvíða",
+					"location": "-",
+					"link": "https://www.litlakms.is",
+					"phone": "-"
+				},
+				{
+					"title": "Barnaspítalinn",
+					"disorder": "-",
+					"location": "-",
+					"link": "https://www.landspitali.is/sjuklingar-adstandendur/deildir-og-thjonusta/barnaspitali-hringsins/",
+					"phone": "-"
+				},
+				{
+					"title": "112",
+					"disorder": "-",
+					"location": "-",
+					"link": "",
+					"phone": "-"
+				},
+				{
+					"title": "Heilbrigðisstofnun Suðurlands",
+					"disorder": "-",
+					"location": "Suðurland",
+					"link": "https://www.hsu.is/salfraedithjonusta-barna-og-ungmenna/",
+					"phone": "-"
+				},
+				{
+					"title": "Sálfræðiþjónusta Norðurlands",
+					"disorder": "-",
+					"location": "Akureyri",
+					"link": "https://salfraedithjonusta.is",
+					"phone": "-"
+				},
+				{
+					"title": "Metis sálfræðiþjónusta",
+					"disorder": "-",
+					"location": "Akureyri",
+					"link": "https://www.metis.is",
+					"phone": "-"
+				},
+				{
+					"title": "Heilbrigðisstofnun Norðurlands",
+					"disorder": "-",
+					"location": "Norðurland",
+					"link": "https://www.hsn.is/akureyri/heilsugaesluthjonusta/salfelagsleg-thjonusta",
+					"phone": "-"
+				},
+				{
+					"title": "Heilbrigðisstofnun Vesturlands",
+					"disorder": "-",
+					"location": "Vesturland",
+					"link": "https://www.hve.is/thjonusta/heilsugaeslusvid/salfraedithjonusta/",
+					"phone": "-"
+				},
+				{
+					"title": "Heilbrigðisstofnun Austurlands",
+					"disorder": "-",
+					"location": "Austurland",
+					"link": "https://www.hsa.is/thjonusta/gedheilbrigdi",
+					"phone": "-"
+				},
+				{
+					"title": "template",
+					"disorder": "template",
+					"location": "template",
+					"link": "template",
+					"phone": "template"
+				}
+			]
 		},
 		"gamerules": {
 			"rules": [

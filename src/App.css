@@ -59,10 +59,12 @@
 .hughreystiStaff ul{
   padding: 0% 3%;
 }
+
 .hughreystiStaff div {
   padding-bottom: 3%;
 }
 
+/* Styles for Verkfærrakistan button */
 .cta {
   position: relative;
   margin: auto;
@@ -76,7 +78,8 @@
   left: 0;
   display: block;
   border-radius: 28px;
-  background: rgba(255, 171, 157,.5);
+  /*background: rgba(255, 171, 157,.5);*/
+  background: rgba(250, 145, 55,.5);
   width: 56px;
   height: 56px;
   transition: all .3s ease;
@@ -104,7 +107,8 @@
 }
 .cta:hover:before {
   width: 100%;
-  background: rgba(255, 171, 157,1)
+  /*background: rgba(255, 171, 157,1);*/
+  background: rgba(250, 145, 55,1);
 }
 .cta:hover svg {
   transform: translateX(0)
