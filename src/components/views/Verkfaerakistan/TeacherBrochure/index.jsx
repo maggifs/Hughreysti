@@ -1,17 +1,16 @@
 import React from 'react';
-import Data from '../../../../data/data.json';
 
-function getTeacherInformation() {
-  return Data.map((dataDetail)=>{ return dataDetail.brochure.information});
+function getTeacherInformation(data) {
+  return data.map((dataDetail)=>{ return dataDetail.brochure.information});
 }
 
-function getInformation() {
-  return Data.map((dataDetail)=>{ return dataDetail.brochure.brochure})
+function getInformation(data) {
+  return data.map((dataDetail)=>{ return dataDetail.brochure.brochure})
 }
 
-function TeacherBrochure() {
-  let teacherInformation = getTeacherInformation();
-  let information = getInformation();
+function TeacherBrochure(props) {
+  let teacherInformation = getTeacherInformation(props.data);
+  let information = getInformation(props.data);
 
   return (
     <div className="App container">

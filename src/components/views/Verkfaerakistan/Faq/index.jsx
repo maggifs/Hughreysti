@@ -1,13 +1,16 @@
 import React from 'react';
-import Data from '../../../../data/data.json';
 
-function Faq() {
-  let questions;
-  Data.map((dataDetail)=>{ return (questions = dataDetail.faq.questions)});
+function getQuestions(data) {
+  return data.map((dataDetail)=>{ return dataDetail.faq.questions});
+}
+
+function Faq(props) {
+  let questions = getQuestions(props.data);
+  
   return (
     <div className="App container">
       <h1>Algengar Spurningar</h1>
-        {questions.map((item, index)=>{
+        {questions[0].map((item, index)=>{
           return <div key={index}>
             <h4>{item.question}</h4>
             <p>{item.answer}</p>
