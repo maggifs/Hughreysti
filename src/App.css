@@ -116,3 +116,12 @@
 .cta:active {
   transform: scale(.96)
 }
+
+table thead button {
+  margin-left: 5px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  color: white;
+  outline:none !important;
+  border: none;
+}
