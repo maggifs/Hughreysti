@@ -58,7 +58,12 @@
       $('#brochureList button').on('click', function (e) {
       e.preventDefault()
       $(this).find('div').toggleClass('hidden')
-    })
+      });
+      
+      $('#sidebarToggle').on('click', function () {
+        console.log('hello')
+        $('#sidebar').toggleClass('active');
+      });
     }
     window.onload = makeActive;
     </script>

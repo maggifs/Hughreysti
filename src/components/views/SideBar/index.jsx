@@ -6,6 +6,11 @@ import './sidebar.css';
 function NavigationBar() {
   return (
     <nav id="sidebar">
+      <div className="btnToggle">
+        <button id="sidebarToggle" className="btn btn-dark">
+          <i className="fa fa-bars"></i>
+        </button>
+      </div>
       <div className="sidebar-header">
           <h3><a href="/">Hughreysti</a></h3>
       </div>
