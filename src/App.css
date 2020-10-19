@@ -2,26 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 .wrapper {
   display: flex;
   width: 100%;
@@ -79,7 +59,6 @@
   left: 0;
   display: block;
   border-radius: 28px;
-  /*background: rgba(255, 171, 157,.5);*/
   background: rgba(250, 145, 55,.5);
   width: 56px;
   height: 56px;
@@ -108,7 +87,6 @@
 }
 .cta:hover:before {
   width: 100%;
-  /*background: rgba(255, 171, 157,1);*/
   background: rgba(250, 145, 55,1);
 }
 .cta:hover svg {
@@ -125,4 +103,20 @@ table thead button {
   color: white;
   outline:none !important;
   border: none;
+}
+
+@media (max-width: 991.98px) {
+  .cta {
+    transform: scale(.96);
+    width: 100%;
+    background: rgba(250, 145, 55,1);
+    border-radius: 28px;
+  }
+  .cta svg {
+    transform: translateX(0)
+  }
+  #verkfButtonBox {
+    margin-top: 3%;
+    margin-bottom: 10%;
+  }
 }

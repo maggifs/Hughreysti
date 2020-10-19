@@ -1,11 +1,7 @@
 import React from 'react';
-import Data from '../../../data/data.json';
 import Image from '../../../data/images/personPlaceholder.jpg'
 
 function FrontPage() {
-  let photo = "../../../data/images/";
-  let staff;
-  Data.map((dataDetail)=>{ return (staff = dataDetail.staff.members)});
   return (
     <div className="App container">
       <h1>Velkomin/n á vefsíðu Hughreystis</h1>
@@ -31,15 +27,6 @@ function FrontPage() {
       <div className="hughreystiStaff container">
         <h3>Stjórn Hughreystis</h3>
         <ul>
-        {/*staff.map((person, index)=>{
-          return <li key={index} >
-            <div className="col">
-              <img src={photo + person.image} alt="placeholder" className="img-fluid rounded" />
-              <h3>{person.name}</h3>
-              <span>{person.role}</span>
-            </div>
-          </li>
-        })*/}
           <li>
             <div className="col-md" >
               <img src={Image} alt="placeholder" className="img-fluid rounded" />
