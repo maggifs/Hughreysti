@@ -2,37 +2,121 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  align-items: stretch;
+  background-color: #e6f9ff;
+}
+
+#content {
+  width: 100%;
+  padding: 20px;
+  min-height: 100vh;
+  transition: all 0.3s;
+  background-color: #e6f9ff;
+}
+
+.hidden {
+  display: none;
+}
+
+#verkfButtonBox {
+  padding: 2%;
+}
+
+#verkfButton {
+  color: black;
+}
+
+.hughreystiStaff li {
+  display: inline-block;
+}
+
+.hughreystiStaff li h3{
+  font-size: 20px;
+}
+
+.hughreystiStaff ul{
+  padding: 0% 3%;
+}
+
+.hughreystiStaff div {
+  padding-bottom: 3%;
+}
+
+/* Styles for Verkfærrakistan button */
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 19px 22px;
+  transition: all .2s ease;
+}
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 28px;
+  background: rgba(250, 145, 55,.5);
+  width: 56px;
+  height: 56px;
+  transition: all .3s ease;
+}
+.cta span {
+  position: relative;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 900;
+  letter-spacing: .25em;
+  text-transform: uppercase;
+  vertical-align: middle;
+}
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #111;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all .3s ease;
+}
+.cta:hover:before {
+  width: 100%;
+  background: rgba(250, 145, 55,1);
+}
+.cta:hover svg {
+  transform: translateX(0)
+}
+.cta:active {
+  transform: scale(.96)
+}
+
+table thead button {
+  margin-left: 5px;
+  background-color: Transparent;
+  background-repeat:no-repeat;
   color: white;
+  outline:none !important;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 991.98px) {
+  .cta {
+    transform: scale(.96);
+    width: 100%;
+    background: rgba(250, 145, 55,1);
+    border-radius: 28px;
   }
-  to {
-    transform: rotate(360deg);
+  .cta svg {
+    transform: translateX(0)
+  }
+  #verkfButtonBox {
+    margin-top: 3%;
+    margin-bottom: 10%;
   }
 }
